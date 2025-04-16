@@ -2,4 +2,4 @@
 ## test program
 
 ## Workflow added
-testing smoketestx
+testing smoketest
