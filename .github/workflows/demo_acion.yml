@@ -1,5 +1,10 @@
 name: build code
-on: workflow_dispatch
+on:
+  push:
+    branches:
+      - smoketest
+  pull_request:
+  
 jobs:
   build-job:
     runs-on: ubuntu-latest
