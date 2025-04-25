@@ -1,6 +1,9 @@
 ---
 name: "build code"
-on: [push, workflow_dispatch]
+on:
+  pull_request:
+    types:
+      - opened
 jobs:
   build-job:
     runs-on: ubuntu-latest
