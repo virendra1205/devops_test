@@ -1,11 +1,11 @@
-name: build code
+name: "build code"
 on: [push, workflow_dispatch]
 jobs:
   build-job:
     runs-on: ubuntu-latest
     steps:
       - name: "Get code"
-        use: actions/checkout@v3
+        uses: actions/checkout@v3
 
       - name: install ansile-lint
         run: |
