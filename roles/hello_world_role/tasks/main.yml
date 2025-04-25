@@ -1,9 +1,9 @@
 ---
-- name: "Print message"
+- name: "print message"
   ansible.builtin.debug:
     msg: "Hello World"
 
-- name: "print Kernel Version"
+- name: "print Kernel version"
   ansible.builtin.debug:
     msg: "{{ansible_kernel}}"
 ...
