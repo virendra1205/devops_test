@@ -41,7 +41,7 @@ jobs:
           ansible-plyabook -i ./inventory/hosts playbook/01_test.yml
 
       - name: upload arctifact
-        uses: actions/upload-artifact@v3
+        uses: actions/upload-artifact@v4
         with:
           name: ansible-logs
           path: ANSIBLE.LOG
