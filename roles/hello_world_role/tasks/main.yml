@@ -3,7 +3,6 @@
   ansible.builtin.debug:
     msg: "Hello World"
 
-
 - name: "print kernel version"
   ansible.builtin.debug:
     msg: "{{ansible_kernel}}"

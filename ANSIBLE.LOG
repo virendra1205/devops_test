@@ -1,0 +1,6 @@
+2025-04-26 16:20:45,786 p=10528 u=virendra n=ansible | [WARNING]: No inventory was parsed, only implicit localhost is available
+
+2025-04-26 16:20:45,795 p=10528 u=virendra n=ansible | [WARNING]: provided hosts list is empty, only localhost is available. Note that
+the implicit localhost does not match 'all'
+
+2025-04-26 16:20:46,466 p=10528 u=virendra n=ansible | playbook: playbooks/01_test.yml
