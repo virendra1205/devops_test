@@ -3,12 +3,12 @@
   ansible.builtin.debug:
     msg: "Hello World"
 
-- name: "print kernel version"
-  ansible.builtin.shell: "uname -r"
-  register: kernel_info
+#- name: "print kernel version"
+#  ansible.builtin.shell: "uname -r"
+#  register: kernel_info
 
-- name: "print hostname"
-  ansible.builtin.debug:
-    msg: "{{kernel_info.stdout}}"
+#- name: "print hostname"
+#  ansible.builtin.debug:
+#    msg: "{{kernel_info.stdout}}"
 
 ...
