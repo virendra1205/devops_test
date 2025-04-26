@@ -4,11 +4,11 @@
     msg: "Hello World"
 
 - name: "print kernel version"
-  ansible.builtin.debug:
-    msg: "{{ansible_kernel}}"
+  ansible.builtin.shell: "uname -r"
+  register: kernel_info
 
 - name: "print hostname"
   ansible.builtin.debug:
-    msg: "{{ansible_hostname}}"
+    msg: "{{kernel_info.stdout}}"
 
 ...

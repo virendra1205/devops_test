@@ -28,3 +28,9 @@ the implicit localhost does not match 'all'
 the implicit localhost does not match 'all'
 
 2025-04-26 16:34:24,479 p=11174 u=virendra n=ansible | playbook: playbooks/01_test.yml
+2025-04-26 16:35:57,544 p=11353 u=virendra n=ansible | [WARNING]: No inventory was parsed, only implicit localhost is available
+
+2025-04-26 16:35:57,545 p=11353 u=virendra n=ansible | [WARNING]: provided hosts list is empty, only localhost is available. Note that
+the implicit localhost does not match 'all'
+
+2025-04-26 16:35:57,633 p=11353 u=virendra n=ansible | playbook: playbooks/01_test.yml
