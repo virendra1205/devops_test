@@ -38,7 +38,7 @@ jobs:
 
       - name: run playbook
         run: |
-          ansible-playbook -i ./inventory/hosts playbook/01_test.yml
+          ansible-playbook -i ./inventory/hosts playbooks/01_test.yml
 
       - name: upload arctifact
         uses: actions/upload-artifact@v4
