@@ -45,6 +45,4 @@ jobs:
         with:
           name: ansible-logs
           path: ANSIBLE.LOG
-      
-
 ...
