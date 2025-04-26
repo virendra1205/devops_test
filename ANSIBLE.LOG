@@ -4,3 +4,27 @@
 the implicit localhost does not match 'all'
 
 2025-04-26 16:20:46,466 p=10528 u=virendra n=ansible | playbook: playbooks/01_test.yml
+2025-04-26 16:34:19,528 p=11097 u=virendra n=ansible | [WARNING]: No inventory was parsed, only implicit localhost is available
+
+2025-04-26 16:34:19,529 p=11097 u=virendra n=ansible | [WARNING]: provided hosts list is empty, only localhost is available. Note that
+the implicit localhost does not match 'all'
+
+2025-04-26 16:34:19,606 p=11097 u=virendra n=ansible | playbook: playbooks/01_test.yml
+2025-04-26 16:34:23,582 p=11137 u=virendra n=ansible | [WARNING]: No inventory was parsed, only implicit localhost is available
+
+2025-04-26 16:34:23,584 p=11137 u=virendra n=ansible | [WARNING]: provided hosts list is empty, only localhost is available. Note that
+the implicit localhost does not match 'all'
+
+2025-04-26 16:34:23,670 p=11137 u=virendra n=ansible | playbook: playbooks/01_test.yml
+2025-04-26 16:34:23,904 p=11156 u=virendra n=ansible | [WARNING]: No inventory was parsed, only implicit localhost is available
+
+2025-04-26 16:34:23,905 p=11156 u=virendra n=ansible | [WARNING]: provided hosts list is empty, only localhost is available. Note that
+the implicit localhost does not match 'all'
+
+2025-04-26 16:34:23,987 p=11156 u=virendra n=ansible | playbook: playbooks/01_test.yml
+2025-04-26 16:34:24,401 p=11174 u=virendra n=ansible | [WARNING]: No inventory was parsed, only implicit localhost is available
+
+2025-04-26 16:34:24,402 p=11174 u=virendra n=ansible | [WARNING]: provided hosts list is empty, only localhost is available. Note that
+the implicit localhost does not match 'all'
+
+2025-04-26 16:34:24,479 p=11174 u=virendra n=ansible | playbook: playbooks/01_test.yml

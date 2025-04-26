@@ -1,7 +1,7 @@
 ---
 - name: "Test playbook for hello world"
   hosts: all
-  gather_facts: false
+  gather_facts: true
   roles:
     - role: "../roles/hello_world_role"
 ...
