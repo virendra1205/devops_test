@@ -2,7 +2,7 @@ name: "Generate ASCII artwork"
 on: push
 
 jobs:
-    first_job:
+    ascii_job:
         runs-on: ubuntu-latest
         steps:
           - name: checkout code
