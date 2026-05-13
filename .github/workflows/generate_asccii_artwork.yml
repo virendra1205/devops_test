@@ -12,6 +12,8 @@ jobs:
             run: ls -l
 
           - name: list and read file
-            run: ./ascii-script.sh 
+            run: |
+              chmod +x ascii-script.sh 
+              ./ascii-script.sh 
 
           
