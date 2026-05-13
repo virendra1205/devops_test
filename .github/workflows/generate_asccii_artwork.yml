@@ -1,4 +1,4 @@
-name: "my first example"
+name: "Generate ASCII artwork"
 on: push
 
 jobs:
@@ -13,6 +13,8 @@ jobs:
               echo "my first GitHub Action Job"
               ls -l
               cat README.md
+          - name: install cowsay 
+            run: sudo apt-get install cowsay
 
           - name: Generate ASCII Artwork
             run: cowsay -f dragon "run for cover, I am a DRAGON....RAWR" >> dragon.txt
