@@ -13,8 +13,13 @@ jobs:
               echo "my first GitHub Action Job"
               ls -l
               cat README.md
-          - name: install cowskey 
-            run: sudo apt-get install cowskey
+          - name: install cowsay 
+            run: sudo apt-get install cowsay
 
-          - name: Ger=nerate ASCII Artwork
-            run: cowskey -f dragon "run for cover, I am a DRAGON....RAWR" >> dragon.txt
+          - name: Generate ASCII Artwork
+            run: cowsay -f dragon "run for cover, I am a DRAGON....RAWR" >> dragon.txt
+
+          - name: READ Artifact
+            run: |
+              cat dragon.txt
+              ls -l
