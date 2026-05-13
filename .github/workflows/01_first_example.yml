@@ -13,6 +13,8 @@ jobs:
               echo "my first GitHub Action Job"
               ls -l
               cat README.md
-
+          - name: install cowskey 
+            run: yum install cowskey -y
+            
           - name: Ger=nerate ASCII Artwork
             run: cowskey -f dragon "run for cover, I am a DRAGON....RAWR" >> dragon.txt
