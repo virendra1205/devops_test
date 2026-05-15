@@ -1,4 +1,4 @@
-name: "Generate ASCII artwork"
+name: "multiple Jobs Demo"
 on: push
 
 jobs:
@@ -28,7 +28,7 @@ jobs:
             name: dragon_file
 
         - name: test the file 
-          run: grep dragon dragon.txt
+          run: grep -i dragon dragon.txt
 
     deploy_03_job:
       needs: test_02_job
